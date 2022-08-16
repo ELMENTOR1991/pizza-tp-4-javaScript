@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color:#3F0108 ;
+}
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ padding: 22px;
+ color:#FF7785 ;   
+}
+.card-contenedor{
+    background-color: #FF7785;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 22px;
+    padding: 30px;
+}
+.cards{
+    border: 3px solid #FF0A22;
+    border-radius: 35px;
+    background-color: #3F0108;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 430px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cards:hover{
+    transform: scale(1.1);
+}
+.cards1:hover{
+    transform: scale(1.1);
+}
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 200px;
+    height: 150px;
+    border-radius: 25px;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    width: 2rem;
+    height: 80px;
+    color:#FFCDD2;
+}
+.ingredientes{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+    font-size: 1.1rem;
+    color: #FFCDD2;
+    
+    
+}
+span{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    padding: 5px;
+    font-size: 1.5rem;
+    color: #FF0A22;
+    margin: 10px 0;
+}
+.comprar{
+    background-color: #FFCDD2;
+    border: none;
+    width: 80px;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    height: 30px;
+}
+.comprar:hover{
+    color: #FF0A22;
+    background-color: #FF7785;
+}
+.cards1{
+    border: 1px solid;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 245px;
+    height: 430px;
+}
+input{
+    background-color:#FFCDD2 ;
+    display: flex;
+    margin: 20px auto;
+    border-radius: 35px;
+    padding: 10px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    color:#3F0108;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+input::placeholder{
+    padding: 10px;
+}
+.filter{
+    display: none;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 65px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #FFCDD2;
+    color: #3F0108;
+}
+#btn:hover{
+    background-color:#FF0A22 ;
+    color:#3F0108;
+    transform: scale(1.1);
+}
+p{  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    color:#FF0A22 ;
+}
+li{
+    list-style: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color:#FF7785 ;
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    gap: 30px;
+    color: aliceblue;
+    flex-direction: row;
+}
+li:hover{
+    color:#FF0A22;
+}
+.searched{
+    margin: 0 auto;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+@media (max-width:580px) {
+    .card-container{
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+}
